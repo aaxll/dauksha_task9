@@ -1,0 +1,19 @@
+2020-01-17 13:21:04 ERROR WebDriverListener:126 - Error:ChromeDriver: chrome on WINDOWS (154d9ffb8693f0214cccb16e87aba0b9)
+2020-01-17 13:25:31 ERROR WebDriverListener:126 - Error: ChromeDriver: chrome on WINDOWS (cfd7f1f9c08975d70598c38f37491b8b)
+2020-01-17 13:50:16 ERROR WebDriverListener:126 - Error: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"section.col-lg-9 div.col-sm-offset-2 button1"}
+  (Session info: headless chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0EUK510', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Dauksha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 273d749447dfdcaaf1439869fa42a33a
+*** Element info: {Using=css selector, value=section.col-lg-9 div.col-sm-offset-2 button1}
+2020-01-17 14:46:00 ERROR WebDriverListener:132 - Error: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0EUK510', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Dauksha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3967095f8f1d34edaf1614a13dfdb214
